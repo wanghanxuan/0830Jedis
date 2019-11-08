@@ -14,5 +14,6 @@ public class Pingtest {
 		String pong = jedis.ping();
 		System.out.println(pong);
 		jedis.close();
+		System.out.println("hello");
 	}
 }
